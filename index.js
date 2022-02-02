@@ -13,7 +13,7 @@ const sleep = (ms = 2000) => new Promise((r) => setTimeout(r , ms))
 
 async function welcome (){
     const rainBowTitle = chalkAnimation.rainbow(`
-        who want to be a javascript millionnaire
+        École supérieure en Sciences et Technologies de l'Informatique et du Numérique
     `)
 
     await sleep();
@@ -23,8 +23,8 @@ async function welcome (){
     console.log(`
         ${chalk.bgBlue('HOW TO PLAY')}
         I am a precess in  your computer
-        If you get any question wrong I will be ${chalk.bgRed('Killed')}
-        so get all the questions ${chalk.bgGreen('right')}
+        If you get the question wrong I will be ${chalk.bgRed('disappointed')}
+        so get the only question  ${chalk.bgGreen('right')}
     `);
 }
 
